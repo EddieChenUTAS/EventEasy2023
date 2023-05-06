@@ -7,7 +7,6 @@
 body {
     background-color: #F4F5FA;
     color: #112A46;
-    height: 2000px;
 }
 
 .top-text {
@@ -17,6 +16,7 @@ body {
 
 .main {
     font-family: "Outfit", sans-serif;
+    margin-bottom: 1000px;
 }
 
 .main img {

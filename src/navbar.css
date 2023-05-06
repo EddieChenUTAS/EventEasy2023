@@ -35,8 +35,23 @@ body {
     transition: all 0.3s ease 0s;
 }
 
-.navBar li a:hover {
-    color: #462D11;
+.navBar a::after {
+    background: none repeat scroll 0 0 transparent;
+    margin-top: 0.5rem;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #112A46;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navBar a:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 .navBar img {

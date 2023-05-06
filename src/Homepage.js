@@ -16,9 +16,15 @@ export default function Homepage() {
           </div>
         </div>
         <div id="div2">
-          <div>a</div>
-          <div>b</div>
-          <div>c</div>
+          <div>
+            <p>Location</p>
+          </div>
+          <div>
+            <p>Category</p>
+          </div>
+          <div>
+            <p>Date</p>
+          </div>
         </div>
       </section>
     </div>

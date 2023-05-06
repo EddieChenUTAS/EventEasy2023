@@ -33,7 +33,8 @@ body {
     width: 90%;
     height: 200px;
     margin: 0 auto;
-    border: 5px solid #002135;
+    border: none; 
+    outline: none;
 }
 
 #search-container div {
@@ -46,7 +47,7 @@ body {
 }
 
 #div2 {
-    background-color: green;
+    background-color: white;
 }
 
 #div1-1 {

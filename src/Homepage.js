@@ -15,7 +15,11 @@ export default function Homepage() {
             <input type="submit" value="Search" id="search-btn"></input>
           </div>
         </div>
-        <div id="div2"></div>
+        <div id="div2">
+          <div>a</div>
+          <div>b</div>
+          <div>c</div>
+        </div>
       </section>
     </div>
   );

@@ -33,7 +33,7 @@ body {
     width: 90%;
     height: 200px;
     margin: 0 auto;
-    border: none; 
+    border: none;
     outline: none;
 }
 
@@ -62,16 +62,14 @@ body {
 #div2 div {
     width: 33.3%;
     height: auto;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-left:1px solid black;  
+    border: 2px solid black;
 
 }
 
-#div2 p{
-    margin-left: 1.5rem; 
+#div2 p {
+    margin-left: 1.5rem;
     font-size: 16px;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
 }
 
 #text-input {
@@ -81,8 +79,8 @@ body {
     outline: none;
     font-size: 20px;
     text-align: start;
-    border: none; 
-    outline: none; 
+    border: none;
+    outline: none;
 }
 
 #search-btn {
@@ -97,5 +95,33 @@ body {
     color: white;
     background-color: #00D084;
     outline: none;
-    border: none; 
+    border: none;
+}
+
+#search-btn:hover {
+    background-color: #3e8369;
+    transition: 0.4s ease-out;
+}
+
+#date-picker {
+    margin-left: 20px;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    border: none;
+}
+
+#date-picker:enabled {
+    border: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    scale: 150%;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    margin-right: 20px;
 }

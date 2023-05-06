@@ -26,6 +26,7 @@ export default function Homepage() {
           </div>
           <div>
             <p>Date</p>
+            <input type="date" id="date-picker" placeholder="Select Date"></input>
           </div>
         </div>
       </section>

@@ -9,10 +9,27 @@ body {
     color: #112A46;
 }
 
+#imagebox {
+    position: relative;
+}
+
 .top-text {
     text-align: center;
     font-weight: 200;
 }
+
+.top-text p{
+    margin: 0; 
+    font-size: 32px;
+}
+.top-text h1{
+    font-weight: lighter;
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+
+
 
 .main {
     font-family: "Outfit", sans-serif;
@@ -30,11 +47,13 @@ body {
 
 #search-container {
     background-color: #002135;
-    width: 90%;
+    width: 50%;
     height: 200px;
     margin: 0 auto;
     border: none;
     outline: none;
+    position: relative;
+    transform: translate(0, -100%);
 }
 
 #search-container div {
@@ -87,6 +106,7 @@ body {
     width: 150px;
     height: 50px;
     margin-left: 2rem;
+    margin-right: 2rem;
     position: relative;
     top: 50%;
     -ms-transform: translateY(-50%);

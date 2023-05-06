@@ -6,7 +6,9 @@ body {
     box-sizing: border-box;
 }
 
+
 .navBar {
+    position: relative;
     color: #112A46;
     align-items: center;
     background-color: #E4E5F1;

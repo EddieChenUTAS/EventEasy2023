@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    color: #112A46;
+    align-items: center;
+    background-color: #E4E5F1;
+    box-sizing: border-box;
+    color: #112A46;
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul {
+    color: #112A46;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.navBar a, li a {
+    text-decoration: none;
+    color: #112A46;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.navBar li a:hover {
+    color: #462D11;
+}
+
+.navBar img {
+    width: 8%;
+    height: auto;
+}

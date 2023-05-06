@@ -62,8 +62,16 @@ body {
 #div2 div {
     width: 33.3%;
     height: auto;
-    border: 5px solid yellow;
-    
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left:1px solid black;  
+
+}
+
+#div2 p{
+    margin-left: 1.5rem; 
+    font-size: 16px;
+    margin-top: 0.5rem; 
 }
 
 #text-input {

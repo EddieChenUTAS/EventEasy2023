@@ -3,6 +3,7 @@ import hobartImage from "./images/HobartBackground.jpg";
 export default function Homepage() {
   return (
     <div class="main">
+      <link rel="stylesheet" href="https://unicorns.iconscout.com/release/v4.0.0/css/line.css" />
       <div class="top-text">
         <h1>Event Easy</h1>
         <p>Where amazing events get started</p>
@@ -18,13 +19,28 @@ export default function Homepage() {
           </div>
         </div>
         <div id="div2">
-          <div>
+          <div id="divcell">
             <p>Location</p>
+            <select id="location-select">
+              <option value="" disabled selected>
+                Select Location
+              </option>
+              <option value="0">Hobart</option>
+              <option value="1">Launceston</option>
+            </select>
           </div>
-          <div>
+          <div id="divcell">
             <p>Category</p>
+            <select id="category-select">
+              <option value="" disabled selected>
+                Select Location
+              </option>
+              <option value="0">Birthdat & Private</option>
+              <option value="1">Corporate Functions</option>
+              <option value="2">Weddings & Engagements</option>
+            </select>
           </div>
-          <div>
+          <div id="divcell">
             <p>Date</p>
             <input type="date" id="date-picker" placeholder="Select Date"></input>
           </div>

@@ -59,7 +59,7 @@ body {
     display: flex;
 }
 
-#div2 div {
+#div2 #divcell {
     width: 33.3%;
     height: auto;
     border: 2px solid black;
@@ -111,9 +111,6 @@ body {
     border: none;
 }
 
-#date-picker:enabled {
-    border: none;
-}
 
 input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
@@ -124,4 +121,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 20px;
     border-width: thin;
     margin-right: 20px;
+}
+
+#div2 select {
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
 }

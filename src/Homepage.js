@@ -8,6 +8,8 @@ export default function Homepage() {
         <p>Where amazing events get started</p>
       </div>
 
+      <img src={hobartImage} />
+
       <section id="search-container">
         <div id="div1">
           <div id="div1-1">

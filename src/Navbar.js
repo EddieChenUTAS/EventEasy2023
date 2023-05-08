@@ -6,16 +6,16 @@ export default function Navbar() {
       <img src={logo} alt="site-logo" className="site-logo"></img>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#">Book an Event</a>
+          <a href="/bookevent">Book an Event</a>
         </li>
         <li>
           <a href="#">Past Events</a>
         </li>
       </ul>
-      <a href="#" className="login">
+      <a href="/login" className="login">
         Login
       </a>
     </nav>

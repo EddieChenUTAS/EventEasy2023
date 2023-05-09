@@ -1,4 +1,5 @@
-import logo from "./images/EventEasyLogo.png"; // Tell Webpack this JS file uses this image
+import logo from "@/assets/EventEasyLogo.png"; // Tell Webpack this JS file uses this image
+import "./index.css"
 
 export default function Navbar() {
   return (

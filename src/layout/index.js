@@ -1,12 +1,17 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Homepage from "../pages/home";
+import routes from "@/route";
+import { Routes, Route } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
       <Navbar />
-      <Homepage/>
+      <Routes>
+        {routes.map(({ path, component: Component }) => (
+          <Route path={path} element={<Component />} key={path} />
+        ))}
+      </Routes>
       <Footer />
     </>
   );

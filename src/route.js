@@ -1,6 +1,7 @@
 import Homepage from "@/pages/home";
 import NotFound from "@/pages/notFound";
-import BookEvent from '@/pages/bookEvent'
+import BookEvent from "@/pages/bookEvent";
+import Login from "./pages/login";
 
 const routes = [
   {
@@ -14,6 +15,10 @@ const routes = [
   {
     path: "/bookEvent",
     component: BookEvent,
+  },
+  {
+    path: "/login",
+    component: Login,
   },
   {
     path: "*",

@@ -3,9 +3,9 @@ import "./index.css"
 
 export default function Homepage() {
   return (
-    <div class="main">
+    <div className="main">
       <link rel="stylesheet" href="https://unicorns.iconscout.com/release/v4.0.0/css/line.css" />
-      <div class="top-text">
+      <div className="top-text">
         <h1>Event Easy</h1>
         <p>Where amazing events get started</p>
       </div>

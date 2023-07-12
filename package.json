@@ -8,13 +8,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
 <<<<<<< HEAD
     "start": "craco start",
+<<<<<<< HEAD
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
@@ -24,6 +24,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 >>>>>>> parent of 84cd876 (refactor the repo structure)
+=======
+    "build": "craco  build",
+    "test": "craco  test",
+    "eject": "react-scripts eject"
+>>>>>>> parent of 03c3090 (add react-router-dom and not found page)
   },
   "eslintConfig": {
     "extends": [

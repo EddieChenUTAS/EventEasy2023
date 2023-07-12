@@ -1,5 +1,4 @@
-import hobartImage from "@/assets/HobartBackground.jpg";
-import "./index.css"
+import hobartImage from "./images/HobartBackground.jpg";
 
 export default function Homepage() {
   return (

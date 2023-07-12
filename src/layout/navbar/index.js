@@ -8,6 +8,9 @@ export default function Navbar() {
       <ul>
         <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eca9183c1e1c0b57a3919103503993931cb08734
 <<<<<<< HEAD:src/layout/navbar/index.js
           <Link to="/">Home</Link>
         </li>
@@ -15,6 +18,13 @@ export default function Navbar() {
           <Link to="/bookEvent">Book an Event</Link>
 =======
           <a href="#">Home</a>
+<<<<<<< HEAD
+=======
+        </li>
+        <li>
+          <a href="#">Book an Event</a>
+>>>>>>> parent of 5b39503 (updated navbar):src/Navbar.js
+>>>>>>> eca9183c1e1c0b57a3919103503993931cb08734
         </li>
         <li>
           <a href="#">Book an Event</a>

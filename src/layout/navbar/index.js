@@ -8,16 +8,23 @@ export default function Navbar() {
       <img src={logo} alt="site-logo" className="site-logo"></img>
       <ul>
         <li>
+<<<<<<< HEAD:src/layout/navbar/index.js
           <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/bookEvent">Book an Event</Link>
+=======
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Book an Event</a>
+>>>>>>> parent of 5b39503 (updated navbar):src/Navbar.js
         </li>
         <li>
           <Link href="#">Past Events</Link>
         </li>
       </ul>
-      <a href="/login" className="login">
+      <a href="#" className="login">
         Login
       </a>
     </nav>

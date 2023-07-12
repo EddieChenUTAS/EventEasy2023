@@ -1,6 +1,5 @@
 import logo from "@/assets/EventEasyLogo.png"; // Tell Webpack this JS file uses this image
-import { Link } from "react-router-dom";
-import "./index.css";
+import "./index.css"
 
 export default function Navbar() {
   return (
@@ -8,6 +7,7 @@ export default function Navbar() {
       <img src={logo} alt="site-logo" className="site-logo"></img>
       <ul>
         <li>
+<<<<<<< HEAD
 <<<<<<< HEAD:src/layout/navbar/index.js
           <Link to="/">Home</Link>
         </li>
@@ -19,9 +19,15 @@ export default function Navbar() {
         <li>
           <a href="#">Book an Event</a>
 >>>>>>> parent of 5b39503 (updated navbar):src/Navbar.js
+=======
+          <a href="/">Home</a>
         </li>
         <li>
-          <Link href="#">Past Events</Link>
+          <a href="/bookevent">Book an Event</a>
+>>>>>>> parent of 131a276 (add book event page)
+        </li>
+        <li>
+          <a href="#">Past Events</a>
         </li>
       </ul>
       <a href="#" className="login">
